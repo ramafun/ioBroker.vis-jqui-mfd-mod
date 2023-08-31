@@ -121,8 +121,8 @@
         "open":     {"en": "open",      "de": "auf",    "ru": "откр."}
     });
 
-vis.binds['jqui-mfd'] = {
-    version: "1.0.12",
+vis.binds['jqui-mfd-mod'] = {
+    version: "0.3.0",
     isNotEmpty: function (val) {
         return val !== '' && val !== null && val !== undefined;
     },
@@ -136,7 +136,7 @@ vis.binds['jqui-mfd'] = {
         }
     }
 };
-vis.binds['jqui-mfd'].showVersion();
+vis.binds['jqui-mfd-mod'].showVersion();
 </script>
 
 <script id="tplMfdShutter"
@@ -246,6 +246,8 @@ vis.binds['jqui-mfd'].showVersion();
 
                 var image = '';
                 var imageColor = null;
+
+                console.log(„Test y“);
             if (val >= max) {
                 image = "fts_shutter_100";
                 imageColor = this.data.attr('iconColor10');
