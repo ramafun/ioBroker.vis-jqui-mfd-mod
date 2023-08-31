@@ -1,10 +1,10 @@
 {
   "name": "iobroker.vis-jqui-mfd-mod",
   "description": "jqui-mfd Widgets for ioBroker.vis",
-  "version": "1.1.0",
+  "version": "0.3.0",
   "author": {
-    "name": "hobbyquaker",
-    "email": "hq@ccu.io"
+    "name": "ramafun",
+    "email": "fake@mautecs.de"
   },
   "contributors": [
     "bluefox <dogafox@gmail.com>",
