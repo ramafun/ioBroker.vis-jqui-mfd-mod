@@ -1,7 +1,7 @@
 {
     "common": {
         "name": "vis-jqui-mfd-mod",
-        "version": "0.3",
+        "version": "0.4",
         "news": {
             "1.0.12": {
                 "en": "Custom10-Widget and Light-Widget are repaired if the icon color used",

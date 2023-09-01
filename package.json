@@ -1,7 +1,7 @@
 {
   "name": "iobroker.vis-jqui-mfd-mod",
   "description": "jqui-mfd Widgets for ioBroker.vis",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "author": {
     "name": "ramafun",
     "email": "fake@mautecs.de"
