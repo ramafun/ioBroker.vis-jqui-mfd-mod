@@ -242,7 +242,7 @@ data-vis-attrs1="group.dialog;title;noHeader/checkbox;autoclose/slider,0,30000,1
         var val = max - parseFloat(vis.states.attr(this.data.oid + '.val')) + min;
 
         if (this.data.attr('invert_value')) val = max - val + min;
-
+        console.log("test 2");
         var image = '';
         var imageColor = null;
     if (val >= max) {
