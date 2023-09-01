@@ -163,13 +163,14 @@ data-vis-attrs1="group.dialog;title;noHeader/checkbox;autoclose/slider,0,30000,1
         if (typeof max === 'string' && parseFloat(max).toString() == max) max = parseFloat(max);
         if (typeof min === 'string' && parseFloat(min).toString() == min) min = parseFloat(min);
 
+        console.log(vis.states.attr(this.data.oid + '.val'));
         var val = max - parseFloat(vis.states.attr(this.data.oid + '.val')) + min;
         var valPos = parseFloat(vis.states.attr(this.data.oid-working + '.val'));
         if (valPos > 0) {
             console.log("valPos > 0");
         }
         
-        console.log(vis.states.attr(this.data.oid + '.val'));
+        
         <!-- console.log(vis.states.attr(this.data.oid-working + '.val')); -->
 
 
