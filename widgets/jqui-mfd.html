@@ -165,7 +165,7 @@ data-vis-attrs1="group.dialog;title;noHeader/checkbox;autoclose/slider,0,30000,1
 
         console.log(vis.states.attr(this.data.oid + '.val'));
         var val = max - parseFloat(vis.states.attr(this.data.oid + '.val')) + min;
-        var valPos = parseFloat(vis.states.attr(this.data.oid-working + '.val'));
+        var valPos = parseFloat(vis.states.attr(this.data.oid + '.val'));
         if (valPos > 0) {
             console.log("valPos > 0");
         }
