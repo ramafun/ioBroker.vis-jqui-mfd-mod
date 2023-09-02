@@ -1,5 +1,5 @@
 {
-  "name": "iobroker.vis-jqui-mfd-mod",
+  "name": "iobroker.vis-jqui-mfd",
   "description": "jqui-mfd Widgets for ioBroker.vis",
   "version": "0.4.0",
   "author": {
