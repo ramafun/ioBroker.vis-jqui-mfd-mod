@@ -1,10 +1,10 @@
 {
   "name": "iobroker.vis-jqui-mfd",
   "description": "jqui-mfd Widgets for ioBroker.vis",
-  "version": "0.4.0",
+  "version": "1.1.1",
   "author": {
-    "name": "ramafun",
-    "email": "fake@mautecs.de"
+    "name": "hobbyquaker",
+    "email": "hq@ccu.io"
   },
   "contributors": [
     "bluefox <dogafox@gmail.com>",
@@ -32,11 +32,11 @@
     "jqui-mfd GUI"
   ],
   "devDependencies": {
-    "@alcalzone/release-script": "^3.5.9",
-    "@alcalzone/release-script-plugin-iobroker": "^3.5.9",
-    "@alcalzone/release-script-plugin-license": "^3.5.9",
+    "@alcalzone/release-script": "^3.7.0",
+    "@alcalzone/release-script-plugin-iobroker": "^3.7.0",
+    "@alcalzone/release-script-plugin-license": "^3.7.0",
     "mocha": "^10.2.0",
-    "chai": "^4.3.7"
+    "chai": "^4.3.10"
   },
   "bugs": {
     "url": "https://github.com/ioBroker/ioBroker.vis-jqui-mfd/issues"
